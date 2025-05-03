@@ -21,7 +21,7 @@ This project implements a back-test and parameter search for a Smart Order Route
   - A grid search is performed over:
     - `lambda_over`: [0.01, 0.05, 0.1]
     - `lambda_under`: [0.01, 0.05, 0.1]
-    - `theta_queue`: [0.0, 0.01, 0.05]
+    - `theta_queue`: [0.01, 0.01, 0.05]
   - The best parameter set is selected based on the lowest total cash spent.
 
 - **Baselines**:  
